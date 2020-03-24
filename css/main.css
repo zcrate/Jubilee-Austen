@@ -7,7 +7,7 @@ html {
 }
 
 #about, #work, #contact {
-    height: 600px;
+  height: 600px;
 }
 
 /***** GRID *****/
@@ -48,7 +48,7 @@ nav {
 }
 
 nav ul {
-
+  float: right;
 }
 nav ul li {
   display: inline-block;
@@ -74,16 +74,18 @@ header h2 span {
     color: #2b2b2b;
 }
 
+main {margin:0;}
 /***** ABOUT *****/
 
-#about .full-width {
-  padding: 80px 0;
+#about {
+  margin: 0 auto;
 }
 
 #about h2 {
   font-family: "Lora";
   font-size: 36px;
-  padding-left: 50px;
+  margin: 0 auto;
+  padding: 96px 0 0 50px;
 }
 #about p {
   font-size: 21px;
@@ -104,7 +106,7 @@ header h2 span {
   padding: 115px 0;
 }
 #work img {
-  padding-bottom: 30px;
+  padding: 100px 0 30px 0;
 }
 
 #work h3 {
@@ -126,8 +128,10 @@ header h2 span {
   background: #ebebeb;
 }
 #contact .full-width {
-  padding: 110px 0;
   clear: both;
+}
+#contact .half-width {
+    padding: 110px 0;
 }
 #contact #contact-img {
   margin-left: 25px;

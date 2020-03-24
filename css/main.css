@@ -6,6 +6,11 @@ html {
   width: auto;
 }
 
+body {
+  width: 1400px;
+  margin: 0 auto;
+}
+
 #about, #work, #contact {
   height: 600px;
 }
@@ -15,6 +20,7 @@ html {
 .full-width {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 100px;
 }
 
 .half-width {
